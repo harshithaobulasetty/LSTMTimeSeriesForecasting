@@ -1,7 +1,7 @@
-from core.data import Data
-from core.config import Column
+from Core.data import Data
+from Core.config import Column
 data = Data()
-data.read('data/SBIN.NS.csv')
+data.read('Data/SBIN.NS.csv')
 data.clean_data()
 print(Column.OPEN.value)
 data.print_head()
